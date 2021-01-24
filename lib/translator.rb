@@ -16,18 +16,6 @@ require "yaml"
   emoticon_hash
 end
   
-#def get_japanese_emoticon(file, english)
-  # code goes here
-  #load_library(file).each do |meaning, emojis|
-    #emojis.each do |lang, pic| 
-     # if 
-    #  english == 
-      #end
-     #  binding.pry
- # end  
-
-#end
-
 def get_english_meaning(file, japanese)
   load_library(file).each do |meaning, emojis|
     
@@ -42,4 +30,16 @@ def get_english_meaning(file, japanese)
 end  
   
 end  
+  
+#def get_japanese_emoticon(file, english)
+  # code goes here
+  #load_library(file).each do |meaning, emojis|
+    #emojis.each do |lang, pic| 
+     # if 
+    #  english == 
+      #end
+     #  binding.pry
+ # end  
+
 #end
+
