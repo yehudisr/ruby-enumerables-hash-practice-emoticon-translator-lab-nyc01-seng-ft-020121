@@ -16,17 +16,18 @@ require "yaml"
 end
   
 def get_english_meaning(file, emoticon)
-  load_library(file).each do |meaning, emojis|
+  load_library(file)
+  #.each do |meaning, emojis|
     
-  emojis.each do |lang, pic|  
-    if  japanese == pic[:japanese] 
-      meaning
-    elseif
-      sorry
-    binding.pry
-    end  
-  end 
-end  
+  #emojis.each do |lang, pic|  
+   # if  japanese == pic[:japanese] 
+    #  meaning
+  #  elseif
+   #   sorry
+  #  binding.pry
+   # end  
+  #end 
+#end  
   
 end  
   
