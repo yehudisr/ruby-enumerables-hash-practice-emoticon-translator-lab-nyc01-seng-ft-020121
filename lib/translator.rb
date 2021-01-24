@@ -6,8 +6,10 @@ file = 'lib/emoticons.yml'
 
 def load_library(file)
   # turn array into hash with two keys
-  emoticons = YAML.load_file(file)
-  dictionary= {}
+  emoticons = {"get_meaning"=>{}, "get_emoticon" => {}}
+  
+  YAML.load_file(file).each |meaning, describe|
+  
   emoticons.each do |key, value|
     dictionary[key] = {:english => "", :japanese => ""}
    value.each do |emoji, index|
