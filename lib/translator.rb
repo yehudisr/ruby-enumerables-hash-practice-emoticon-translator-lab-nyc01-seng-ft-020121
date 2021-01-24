@@ -29,11 +29,11 @@ def get_japanese_emoticon(file, english)
   #end  
 end
 
-def get_english_meaning(file, jap_emoticon)
+def get_english_meaning(file, japanese)
   load_library(file).each do |meaning, emojis|
     
   emojis.each do |lang, pic|  
-    if  jap_emoticon = pic[:japanese] 
+    if  japanese = pic[:japanese] 
       meaning
     elseif
       sorry
