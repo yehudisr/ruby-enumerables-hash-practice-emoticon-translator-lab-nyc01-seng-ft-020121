@@ -21,16 +21,8 @@ def get_english_meaning(file, emoticon)
       meaning
     elsif
     "sorry"
-    binding.pry
+    #binding.pry
     end
-  #emojis.each do |lang, pic|  
-   # if  japanese == pic[:japanese] 
-    #  meaning
-  #  elseif
-   #   sorry
-  #  
-   # end  
-  #end 
 end  
   
 end  
