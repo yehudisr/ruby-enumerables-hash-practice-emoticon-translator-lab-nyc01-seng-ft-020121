@@ -20,14 +20,15 @@ end
 
 def get_japanese_emoticon(file, english)
   # code goes here
-  load_library(file)
-  #japanese_emoji = 
-  #get_japanese.each do |key, value|
-   # get_japanese[key] = {:english => value[0], :japanese => value[1]}
+  load_library(file).each do |meaning, emojis|
+    emojis.each do |lang, pic| 
+       binding.pry
+  end  
+  
     
-  #binding.pry 
+  
      
-  #end  
+ 
 end
 
 def get_english_meaning(file, japanese)
