@@ -11,7 +11,7 @@ require "yaml"
    emoticon_hash[key] = {}
    emoticon_hash[key][:english] = ""
    emoticon_hash[key][:japanese]= ""
-    binding.pry
+    #binding.pry
   end
   emoticon_hash
   
