@@ -25,17 +25,17 @@ end
   
 
   
-  emoticons.each do |key, value|
-    dictionary[key] = {:english => "", :japanese => ""}
-   value.each do |emoji, index|
-     if dictionary [key][:english] == emoji 
-     elsif
-      binding.pry
-   end
+#  emoticons.each do |key, value|
+ #   dictionary[key] = {:english => "", :japanese => ""}
+ #  value.each do |emoji, index|
+ #    if dictionary [key][:english] == emoji 
+ #    elsif
+ #     binding.pry
+#   end
     
-    end 
+#    end 
    
-  end
+#  end
 end
 
 def get_japanese_emoticon(file, english)
