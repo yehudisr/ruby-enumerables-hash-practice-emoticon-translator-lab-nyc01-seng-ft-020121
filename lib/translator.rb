@@ -17,34 +17,19 @@ require "yaml"
   
 end
   
-  
 
-  
-#  emoticons.each do |key, value|
- #   dictionary[key] = {:english => "", :japanese => ""}
- #  value.each do |emoji, index|
- #    if dictionary [key][:english] == emoji 
- #    elsif
- #     binding.pry
-#   end
-    
-#    end 
-   
-#  end
-#end
 
-def get_japanese_emoticon(file, english)
+#def get_japanese_emoticon(file, english)
   # code goes here
-  get_japanese = YAML.load_file(file)
-  japanese_emoji = 
-  get_japanese.each do |key, value|
-    get_japanese[key] = {:english => value[0], :japanese => value[1]}
+  #japanese_emoji = 
+  #get_japanese.each do |key, value|
+   # get_japanese[key] = {:english => value[0], :japanese => value[1]}
     
   #binding.pry 
      
-  end  
-end
+  #end  
+#end
 
-def get_english_meaning
+def get_english_meaning(file, jap_emoticon)
   # code goes here
 end
