@@ -26,7 +26,7 @@ def get_english_meaning(file, emoticon)
   #  
    # end  
   #end 
-#end  
+end  
   
 end  
   
