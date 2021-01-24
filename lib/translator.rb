@@ -5,7 +5,6 @@ require "yaml"
 
   # turn array into hash with two keys
  def load_library(file)
-  emoticons = 
   emoticon_hash = {}
  YAML.load_file(file).each do |key, value|
    emoticon_hash[key] = {}
