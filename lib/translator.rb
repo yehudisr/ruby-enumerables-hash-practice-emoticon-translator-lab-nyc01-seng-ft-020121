@@ -12,6 +12,8 @@ def load_library(file)
   eng, jan = describe
   emoticons["get_meaning"][jan] = meaning
   emoticons["get_emoticon"][eng] = jan
+  
+  binding.pry
 end
 emoticons
 end
