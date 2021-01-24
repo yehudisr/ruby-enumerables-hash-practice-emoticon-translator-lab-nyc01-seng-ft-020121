@@ -6,8 +6,8 @@ file = 'lib/emoticons.yml'
 
 
   # turn array into hash with two keys
- def load_library(path)
-  emoticons = YAML.load_file(path)
+ def load_library(file)
+  emoticons = YAML.load_file(file)
   emoticon_hash = Hash.new
 
   emoticon_hash["get_emoticon"] = Hash.new
@@ -36,7 +36,7 @@ end
 #    end 
    
 #  end
-end
+#end
 
 def get_japanese_emoticon(file, english)
   # code goes here
