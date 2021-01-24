@@ -23,6 +23,7 @@ def get_japanese_emoticon(file, english)
   load_library(file).each do |meaning, emojis|
     emojis.each do |lang, pic| 
       if 
+      end
        binding.pry
   end  
 
