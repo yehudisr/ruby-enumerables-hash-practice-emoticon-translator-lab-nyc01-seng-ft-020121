@@ -9,8 +9,8 @@ require "yaml"
   emoticon_hash = {}
  YAML.load_file(file).each do |key, value|
    emoticon_hash[key] = {}
-   emoticon_hash[key][:english] = ""
-   emoticon_hash[key][:japanese]= ""
+   emoticon_hash[key][:english] = value[0]
+   emoticon_hash[key][:japanese]= value [1]
     #binding.pry
   end
   emoticon_hash
