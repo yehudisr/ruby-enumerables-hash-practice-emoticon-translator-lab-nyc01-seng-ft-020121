@@ -9,7 +9,7 @@ def load_library(file)
   emoticons = YAML.load_file(file)
   dictionary= {}
   emoticons.each do |key, value|
-    dictionary[key] = {:english => value[0], :japanese => value[1]}
+    dictionary[key] = {:english => "", :japanese => ""}
     #binding.pry
   end
 end
