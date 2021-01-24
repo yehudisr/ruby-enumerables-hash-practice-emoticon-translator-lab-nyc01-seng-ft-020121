@@ -11,10 +11,13 @@ def load_library(file)
   emoticons.each do |key, value|
     dictionary[key] = {:english => "", :japanese => ""}
    value.each do |emoji, index|
-     
+     if dictionary [key][:english] == emoji 
+     elsif
+      binding.pry
+   end
     
     end 
-    #binding.pry
+   
   end
 end
 
