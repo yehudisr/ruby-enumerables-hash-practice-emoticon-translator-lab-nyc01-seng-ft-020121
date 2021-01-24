@@ -37,7 +37,7 @@ def get_english_meaning(file, jap_emoticon)
       meaning
     elseif
       sorry
-      3binding.pry
+    #binding.pry
     end  
   end 
 end  
