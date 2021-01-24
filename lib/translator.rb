@@ -24,6 +24,7 @@ def get_japanese_emoticon(file, english)
     emojis.each do |lang, pic| 
       if 
       end
+      end
        binding.pry
   end  
 
