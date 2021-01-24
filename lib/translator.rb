@@ -10,7 +10,8 @@ def load_library(file)
   dictionary= {}
   emoticons.each do |key, value|
     dictionary[key] = {:english => "", :japanese => ""}
-   value.each do | |
+   value.each do |emoji, index|
+     
     
     end 
     #binding.pry
