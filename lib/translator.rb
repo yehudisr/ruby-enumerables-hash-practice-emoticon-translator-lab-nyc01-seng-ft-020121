@@ -18,7 +18,8 @@ def get_japanese_emoticon(file, english)
   get_japanese = YAML.load_file(file)
   get_japanese.each do |key, value|
     get_japanese[key] = {:english => value[0], :japanese => value[1]}
-  binding.pry    
+  binding.pry 
+end
     end  
   end  
 end
