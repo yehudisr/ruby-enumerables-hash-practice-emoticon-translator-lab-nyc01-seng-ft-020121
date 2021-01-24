@@ -18,7 +18,6 @@ require "yaml"
 end
   
 
-
 #def get_japanese_emoticon(file, english)
   # code goes here
   #japanese_emoji = 
@@ -31,6 +30,12 @@ end
 #end
 
 def get_english_meaning(file, jap_emoticon)
-  load_library(file)
+  load_library(file).each do |meaning, emojis|
+    binding.pry
+      
+   
+    
+  end  
+  
   
 end
