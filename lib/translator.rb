@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, english)
   load_library(file).each do |meaning, emojis|
     emojis.each do |lang, pic| 
       if 
-      end
+      english == 
       end
        binding.pry
   end  
@@ -34,7 +34,7 @@ def get_english_meaning(file, japanese)
   load_library(file).each do |meaning, emojis|
     
   emojis.each do |lang, pic|  
-    if  japanese = pic[:japanese] 
+    if  japanese == pic[:japanese] 
       meaning
     elseif
       sorry
