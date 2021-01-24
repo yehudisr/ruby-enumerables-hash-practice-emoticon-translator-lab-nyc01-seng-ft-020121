@@ -9,6 +9,12 @@ def load_library(file)
   emoticons = {"get_meaning"=>{}, "get_emoticon" => {}}
   
   YAML.load_file(file).each |meaning, describe|
+  eng, jan = describe
+  emoticons["get_meaning"][jan] = meaning
+  emoticons["get_emoticon"][eng] = jan
+end
+emoticons
+end
   
   emoticons.each do |key, value|
     dictionary[key] = {:english => "", :japanese => ""}
