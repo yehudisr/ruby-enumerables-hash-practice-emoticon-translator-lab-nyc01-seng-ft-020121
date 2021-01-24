@@ -1,14 +1,12 @@
 # require modules here
 require "pry"
 require "yaml"
-emoticons = YAML.load_file('lib/emoticons.yml')
-file = 'lib/emoticons.yml'
 
 
   # turn array into hash with two keys
  def load_library(file)
   emoticons = YAML.load_file(file)
-  emoticon_hash = Hash.new
+  emoticon_hash = {}
 
   emoticon_hash["get_emoticon"] = Hash.new
   emoticon_hash["get_meaning"] = Hash.new
