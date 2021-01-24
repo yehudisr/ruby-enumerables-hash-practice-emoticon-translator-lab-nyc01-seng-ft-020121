@@ -16,7 +16,7 @@ file = 'lib/emoticons.yml'
   emoticons.each do |english_word, emoticon_set|
     emoticon_hash["get_emoticon"][emoticon_set.first] = emoticon_set.last
     emoticon_hash["get_meaning"][emoticon_set.last] = english_word
-    binding.pry
+    
   end
   emoticon_hash
   
