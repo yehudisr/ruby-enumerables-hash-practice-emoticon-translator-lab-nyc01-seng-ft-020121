@@ -31,5 +31,5 @@ end
 #end
 
 def get_english_meaning(file, jap_emoticon)
-  # code goes here
+  load_library(file)
 end
