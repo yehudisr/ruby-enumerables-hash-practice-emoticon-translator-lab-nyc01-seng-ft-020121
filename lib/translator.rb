@@ -15,7 +15,7 @@ require "yaml"
   emoticon_hash
 end
   
-def get_english_meaning(file, japanese)
+def get_english_meaning(file, emoticon)
   load_library(file).each do |meaning, emojis|
     
   emojis.each do |lang, pic|  
