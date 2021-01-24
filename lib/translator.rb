@@ -18,7 +18,7 @@ require "yaml"
 end
   
 
-#def get_japanese_emoticon(file, english)
+def get_japanese_emoticon(file, english)
   # code goes here
   #japanese_emoji = 
   #get_japanese.each do |key, value|
